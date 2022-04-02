@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body >
+
+    <center>
+
+   <h1 align="center" style="color: blue;">Registration Form</h1> 
+
+   <hr width="70%">
+   
+    <br>
+
+   <form method="post" action="first.html"></form>
+
+   <div >
+       <label class="b1" for="first" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Full Name*</b></label>
+       <input type="text" name="first" id="first" placeholder="Enter your first name" required style="border-radius: 3px;">
+       <input type="text" name="first" id="first" placeholder="Enter your last name" required style="border-radius: 3px;">
+   </div>
+   
+    <br>
+
+   <div >
+       <label class="b2" for="address" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Address</b></label>
+       <textarea name="address" id="address"  rows="3" cols="50" style="border-radius: 6px;"></textarea>
+   </div>
+    
+   <br>
+   
+   <div >
+       <label for="email" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Email Address*</b></label>
+       <input type="text" name="email" id="email" style= "border-radius: 3px; " required>
+    </div>
+    
+    <br>
+
+    <div>
+        <label for="phone" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Phone*</b></label>
+        <input type="tel" name="phone" id="phone" >
+    </div>
+
+    <br>
+
+    <div>
+        <label for="gender" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Gender*</b></label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+
+    </div>
+
+    <br>
+
+    <div>
+        <label for="hobbies" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Hobbies</b></label>
+        &nbsp;&nbsp;<input type="checkbox" name="hobbies" id="Movies">
+        <label for="Movies">Movies</label>
+        <div style="padding-left: 68px;">
+            <input type="checkbox" name="hobbies" id="cricket">
+            <label for="cricket">Cricket</label>
+            <div>
+                <input type="checkbox" name="hobbies" id="Hockey"> 
+                <label for="Hockey">Hockey</label>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    
+    <div>
+        <label for="language" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><b>Language</b></label>
+        <input type="text" name="language" id="language" list="Languages" >           
+            <datalist id="Languages">
+                  <option value="English"/>
+                  <option value="Hindi"/>
+                  <option value="Malayalam"/>
+                  <option value="Japanese"/>
+                  <option value="Tamil"/>
+                  <option value="Kannanda"/>
+                
+            </datalist>
+    </div>
+
+    <br>
+   
+    <div>
+        <label for="skills" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Skills</b></label>
+        <select name="skill" id="skill">
+            <option value="select skills">Select Skills</option>
+            <option value="C++">C++</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="Javascript">Javascript</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="country" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Country</b></label>
+        <select name="country" id="country">
+            <option value="select">Select Country</option>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>\
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Germany">Germany</option>
+            <option value="China">China</option>
+            <option value="Singapore">Singapore</option>
+
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="date" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Date of Birth</b></label>
+        <input type="date" name="date" id="date" placeholder="Enter your DOB">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="password" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Password</b></label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+
+    </div>
+
+    <br>
+
+    <div>
+        <label for="confirm password" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Confirm Password</b></label>
+        <input type="password" name=confirmpassword" id="confirmpassword" placeholder="Enter your password">
+
+    </div>
+
+    <br>
+
+    <div>
+        <input type="button" onclick="window.location.href='/submitbtn.html '" value="Submit" style="background-color: blue; color: aliceblue;">
+        <input type="button" value="Refresh" style="background-color: blue; color: aliceblue;">
+        
+    </div>
+
+    <br>
+
+    <div>
+        <label for="file select" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Photo</b></label>
+        <input type="file">
+    </div>
+    
+    </center>
+</body>
+
+<br>
+
+<hr width="70%">
+
+<br>
+
+<footer>
+    <center>
+    Copyright © 2022 All Rights Reserved
+    </center>
+</footer>
+</html>
